@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Election Portal</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+	<style type="text/css">
+ul li ul {
+    display: none;
+}
+
+ul li:hover ul {
+    display: block;
+}
+</style>
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+     <div id='sidebar-wrapper'>
+            <ul class='sidebar-nav'>
+                <li class='sidebar-brand'>
+                    <a href='index.html'>
+						Candidates 2015
+                    </a>
+                </li>
+				<li>
+						<h5>Presented  by: </h5>
+						<h4 style='color:white'>The Scholars' Avenue</h4>
+				<li>
+                <li>
+                    <a href='index.html'>Vice President</a>
+					<ul>
+					<li style='color:gray'><a href='atal.html'>Atal A Agarwal</a></li>
+					<li style='color:gray'><a href='ketan.html'>Ketan Ingle</a></li>
+					</ul>
+                </li>
+                <li>
+                    <a href='index.html'>GSec Technology</a>
+					<ul>
+					<li style='color:gray'><a href='bibhu.html'>Bibhu Agarwal</a></li>
+					<li style='color:gray'><a href='fatwani.html'>Kartikeya Fatwani</a></li>
+					<li style='color:gray'><a href='palak.html'>Palak Goyal</a></li>
+					<li style='color:gray'><a href='tanveer.html'>Tanveer Shaikh</a></li>
+					</ul>
+
+                </li>
+                <li>
+                    <a href='index.html'>GSec Sports</a>
+					<ul>
+					<li style='color:gray'><a href='shenoy.html'>Gaurav Shenoy</a></li>
+					<li style='color:gray'><a href='prateek.html'>Prateek Jain</a></li>
+					<li style='color:gray'><a href='sanket.html'>Sanket Mondal</a></li>
+					</ul>
+                </li>
+                <li>
+                    <a href='index.html'>GSec Social & Cultural</a>
+					<ul>
+					<li style='color:gray'><a href='ayudh.html'>Ayudh Dutta</a></li>
+					<li style='color:gray'><a href='panda.html'>Gourav Panda</a></li>
+					<li style='color:gray'><a href='vivek.html'>Vivek Bhutra</a></li>
+					</ul>
+                </li>
+            </ul>
+
+        </div>    
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+					  <a href="#menu-toggle" class="btn btn-default" id="menu-toggle"><></a>
+                        <h1>Welcome to the Election Portal</h1>
+                        <p>Here you can find the list proposals made by the candidates for the posts of General Secretaries and the Vice President of Technology Students' Gymkhana. Use the sidebar to navigate between candidates. And make informed decisions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+
+</body>
+
+</html>
